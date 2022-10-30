@@ -1,0 +1,108 @@
+body{ margin: 0; padding: 0;}
+
+
+/* header */
+.header div{ width: 100%; height: 50px; background-color: black; margin-top: 0;}
+.header div ul.conaction{ display: inline-flex; margin: 0 0 0 60px; color: white; list-style: none; }
+.header div ul.conaction li{ margin: 13px 20px 0 66px; font-size: 13px;}
+.header div ul.social{
+    display: inline-flex;
+    margin: 0;
+    color: white;
+    list-style: none;
+    position: absolute;
+    left: 60rem;
+    top: 1rem; }
+.header div ul.social li{ margin: 0 20px 0 20px; font-size: 13px;}
+.header div ul.social li a{ text-decoration: none; color: white;}
+
+
+
+/* section part1 */
+
+div.begin div.filter{ 
+  background-color: rgb(18 14 1 / 60%);
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+
+div.begin{
+   background-image: url(../img/with-computer.jpg);
+   background-size: cover; 
+   height: 700px;
+   position: relative;}
+
+
+div.list ul{
+  display: inline-flex;
+  list-style: none;
+  margin-left: 60px;
+  position: relative;
+  left: 36rem;
+  top: 1rem;}
+ 
+div.list ul li{ margin-right: 30px; color: white;}
+div.list ul li p{ margin-top: 4px;}
+div.logo{ width: 20px; height: 20px; position: absolute; left: 145px; top: 10px;}
+div.logo span { position: absolute; top: 32px; color: white; left: 60px; font-family: sans-serif;}
+div.box{ display: inline-flex; position: absolute; left: 19%; top: 80%;}
+div.box div{  width: 275px;  height: 100px;  background-color: rgb(6 5 2 / 60%);  margin-right: 4px;}
+div.box div p{
+  color: white;
+  font-family: sans-serif; 
+  font-size: 13px; 
+  margin: 0px 0 0 100px; 
+  position: absolute; 
+  top: 20px; }
+div.box div button{ background-color: rgb(6 5 2 / 0%); border: none; position: absolute; top: 4rem;}
+div.box div.language button{left: 6rem;}
+div.box div.book button{left: 23.2rem;}
+div.box div.learn button{left: 40.6rem;}
+div.box div button a{text-decoration: none; color: #dcae2e;}
+div.box div button i{color: #dcae2e; margin: 6px; font-size: 12px;}
+div.language span{ margin-left: 17px;}
+div.book span{ margin-left: 17px;}
+div.learn span{ margin-left: 17px;}
+
+
+
+/*footer*/
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+/* Credit to https://bootsnipp.com/snippets/bxDBA */
+
+
